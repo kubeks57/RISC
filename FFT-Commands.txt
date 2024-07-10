@@ -1,0 +1,3 @@
+Compile:  g++ -o FFT FFT.cpp -std=c++11
+Run: fft
+./FFT
