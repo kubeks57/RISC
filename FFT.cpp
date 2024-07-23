@@ -56,19 +56,18 @@ void fft(CArray& x) {
 }
 
 int main() {
-    // Example: FFT on a larger signal
-    const size_t N = 1024; // Increase input size to make the computation longer
+    const size_t N = 1024; // Input size
     CArray data;
     data.reserve(N);
 
-    // Fill data with some values, for example, a simple wave
+    // Sample data - sine wave
     for (size_t i = 0; i < N; ++i) {
         data.emplace_back(std::sin(2 * PI * i / N), 0);
     }
 
     std::cout << "Performing FFT on data of size " << N << '\n';
 
-    // Benchmarking with multiple runs
+    // Benchmarking 1000 runs
     const int num_runs = 1000;
     auto start = std::chrono::high_resolution_clock::now();
 
