@@ -1,0 +1,28 @@
+[2mdocker0: unmanaged[0m
+	"docker0"
+	bridge, 02:42:92:98:E8:80, sw, mtu 1500
+
+[2meth0: unmanaged[0m
+	"eth0"
+	ethernet (macb), 00:04:A3:86:99:36, hw, mtu 1500
+
+[2meth1: unmanaged[0m
+	"eth1"
+	ethernet (macb), 00:04:A3:86:99:35, hw, mtu 1500
+
+[2musb0: unmanaged[0m
+	"usb0"
+	ethernet (configfs-gadget.g_multi), 00:04:A3:86:99:39, hw, mtu 1500
+
+[2mip6tnl0: unmanaged[0m
+	"ip6tnl0"
+	iptunnel (ip6tnl), 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00, sw, mtu 1452
+
+[2mlo: unmanaged[0m
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, sw, mtu 65536
+
+Use "nmcli device show" to get complete information about known devices and
+"nmcli connection show" to get an overview on active connection profiles.
+
+Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
