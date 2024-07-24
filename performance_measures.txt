@@ -1,0 +1,5 @@
+FFT size: 1200001
+Average FFT time: 3.62101 seconds.
+Average peak memory usage: 70876 kilobytes
+Estimated energy consumption per FFT run: 1.8105 joules / 0.000502918 watt-hours.
+
